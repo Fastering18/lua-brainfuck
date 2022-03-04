@@ -1,6 +1,8 @@
 # lua-brainfuck
 Brainfuck interpreter written in lua  
 
+> **Don't use this module for storing secret data.**
+
 ## Usage
 ```lua
 -- Usage (chaining using two memory)
