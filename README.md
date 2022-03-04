@@ -1,7 +1,8 @@
 # lua-brainfuck
-Brainfuck interpreter written in lua  
+Translate brainf code into human-readable string for you!  
 
-> **Don't use this module for storing secret data.**
+> **DON'T store secret data using this module.  
+> Use hash encryption for better security.**
 
 ## Usage
 ```lua
@@ -31,4 +32,4 @@ print(onichan) --> ">++++++[-<++++++++++>]<++++++.-.++++++++++.----------."
 [Discord server](https://discord.gg/FHVjsSg7jU)  
 [Roblox](https://www.roblox.com/users/467971019/profile)  
 <br>
-Issue, contributing are welcomed!
+Issue and contributing are welcomed!
