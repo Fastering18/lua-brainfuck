@@ -3,8 +3,8 @@ Brainfuck interpreter written in lua
 
 ## Usage
 ```lua
-Usage (chaining using two memory)
-local encryptor = require(PATH TO ENCRYPTOR FILE)
+-- Usage (chaining using two memory)
+local encryptor = require(PATH TO BRAINFUCK FILE)
 
 -- Decode
 local runtime = encryptor.decode(
