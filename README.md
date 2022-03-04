@@ -8,10 +8,10 @@ local encryptor = require(PATH TO BRAINFUCK FILE)
 
 -- Decode
 local runtime = encryptor.decode(
-  ">++++++[-<++++++++++>]<++++++.".. -- B (66): 6 * 10 + 6
-  "-.".. 							               -- A (65): 66 - 1
-  "++++++++++."..				             -- K (75): 65 + 10
-  "----------."                      -- A (65): 75 - 10
+  ">++++++[-<++++++++++>]<++++++."..  -- B (66): 6 * 10 + 6
+  "-."..                              -- A (65): 66 - 1
+  "++++++++++."..                     -- K (75): 65 + 10
+  "----------."                       -- A (65): 75 - 10
 )
 if runtime.error then -- check for possible error
   error(runtime.error) 
